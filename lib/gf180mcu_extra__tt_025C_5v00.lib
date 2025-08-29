@@ -73,8 +73,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		index_2 ("1, 2, 3, 4, 5, 6, 7");
 	}
 	
-	cell (gf180mcu_as_sc_mcu7t5v0__trans_1) {
-		cell_footprint : gf180mcu_as_sc_mcu7t5v0__trans;
+	cell (gf180mcu_extra__trans_1) {
+		cell_footprint : gf180mcu_extra__trans;
 		area : 8.780800;
 		
 		pg_pin(VPW) {
@@ -136,8 +136,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		}
 	}
 	
-	cell (gf180mcu_as_sc_mcu7t5v0__trans_2) {
-		cell_footprint : gf180mcu_as_sc_mcu7t5v0__trans;
+	cell (gf180mcu_extra__trans_2) {
+		cell_footprint : gf180mcu_extra__trans;
 		area : 13.171200;
 		
 		pg_pin(VPW) {
