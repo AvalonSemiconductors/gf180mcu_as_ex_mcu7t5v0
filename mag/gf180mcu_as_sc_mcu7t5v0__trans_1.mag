@@ -1,0 +1,97 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1754036620
+<< nwell >>
+rect -86 352 534 870
+<< pwell >>
+rect -86 -86 534 352
+<< mvnmos >>
+rect 124 68 244 232
+<< mvpmos >>
+rect 124 472 224 716
+<< mvndiff >>
+rect 36 219 124 232
+rect 36 173 49 219
+rect 95 173 124 219
+rect 36 68 124 173
+rect 244 219 338 232
+rect 244 173 273 219
+rect 319 173 338 219
+rect 244 68 338 173
+<< mvpdiff >>
+rect 36 667 124 716
+rect 36 486 49 667
+rect 95 486 124 667
+rect 36 472 124 486
+rect 224 666 338 716
+rect 224 485 273 666
+rect 319 485 338 666
+rect 224 472 338 485
+<< mvndiffc >>
+rect 49 173 95 219
+rect 273 173 319 219
+<< mvpdiffc >>
+rect 49 486 95 667
+rect 273 485 319 666
+<< polysilicon >>
+rect 124 716 224 760
+rect 124 439 224 472
+rect 124 393 146 439
+rect 192 393 224 439
+rect 124 380 224 393
+rect 124 311 244 324
+rect 124 265 147 311
+rect 193 265 244 311
+rect 124 232 244 265
+rect 124 24 244 68
+<< polycontact >>
+rect 146 393 192 439
+rect 147 265 193 311
+<< metal1 >>
+rect 0 724 448 844
+rect 36 667 95 678
+rect 36 486 49 667
+rect 266 666 326 678
+rect 36 219 95 486
+rect 141 439 195 647
+rect 141 393 146 439
+rect 192 393 195 439
+rect 141 382 195 393
+rect 266 485 273 666
+rect 319 485 326 666
+rect 36 173 49 219
+rect 36 162 95 173
+rect 142 311 197 322
+rect 142 265 147 311
+rect 193 266 197 311
+rect 193 265 196 266
+rect 142 106 196 265
+rect 266 219 326 485
+rect 266 173 273 219
+rect 319 173 326 219
+rect 266 162 326 173
+rect 0 -60 448 60
+<< labels >>
+flabel metal1 s 0 724 448 844 0 FreeSans 400 0 0 0 VDD
+port 3 nsew power bidirectional abutment
+flabel nwell s 10 734 110 834 0 FreeSans 400 0 0 0 VNW
+port 4 nsew power bidirectional
+flabel pwell s 10 -50 110 50 0 FreeSans 400 0 0 0 VPW
+port 5 nsew ground bidirectional
+flabel metal1 s 0 -60 448 60 0 FreeSans 400 0 0 0 VSS
+port 6 nsew ground bidirectional abutment
+flabel metal1 266 162 326 678 0 FreeSans 200 0 0 0 Y
+port 1 nsew signal output
+flabel metal1 36 162 95 678 0 FreeSans 200 0 0 0 A
+port 2 nsew signal input
+flabel metal1 141 382 195 647 0 FreeSans 200 0 0 0 ENB
+port 7 nsew signal input
+flabel metal1 142 106 197 322 0 FreeSans 200 0 0 0 EN
+port 8 nsew signal input
+<< properties >>
+string FIXED_BBOX 0 0 448 784
+string LEFclass core
+string LEFsite GF018hv5v_mcu_sc7
+string LEFsymmetry X Y
+<< end >>
