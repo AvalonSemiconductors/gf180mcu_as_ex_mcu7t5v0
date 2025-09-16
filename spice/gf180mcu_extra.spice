@@ -1,0 +1,78 @@
+* NGSPICE file created from gf180mcu_extra__dfxtn_2.ext - technology: gf180mcuD
+
+.subckt gf180mcu_extra__dfxtn_2 VDD VNW VPW VSS Q D CLK
+X0 a_2132_68# a_448_472# a_1564_24# VNW pfet_05v0 ad=0.5673p pd=2.15u as=0.7076p ps=2.38u w=1.22u l=0.5u
+X1 a_1096_472# D a_948_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
+X2 Q a_2554_24# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.369p ps=2.54u w=0.82u l=0.6u
+X3 VSS CLK a_36_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X4 a_1516_68# a_36_68# a_1096_472# VPW nfet_05v0 ad=98.39999f pd=1.06u as=0.574p ps=2.22u w=0.82u l=0.6u
+X5 VSS a_1564_24# a_1516_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=98.39999f ps=1.06u w=0.82u l=0.6u
+X6 VDD a_2554_24# Q VNW pfet_05v0 ad=0.549p pd=3.34u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X7 a_1096_472# D a_836_68# VPW nfet_05v0 ad=0.574p pd=2.22u as=0.328p ps=1.62u w=0.82u l=0.6u
+X8 a_1564_24# a_1096_472# VDD VNW pfet_05v0 ad=0.7076p pd=2.38u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X9 a_2554_24# a_2132_68# VDD VNW pfet_05v0 ad=0.6588p pd=3.52u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X10 a_2132_68# a_36_68# a_1564_24# VPW nfet_05v0 ad=0.3936p pd=1.78u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X11 VSS a_2554_24# Q VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X12 a_836_68# a_448_472# VSS VPW nfet_05v0 ad=0.328p pd=1.62u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X13 a_2554_24# a_2132_68# VSS VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X14 a_448_472# a_36_68# VDD VNW pfet_05v0 ad=0.6588p pd=3.52u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X15 a_2506_472# a_36_68# a_2132_68# VNW pfet_05v0 ad=0.1464p pd=1.46u as=0.5673p ps=2.15u w=1.22u l=0.5u
+X16 Q a_2554_24# VDD VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.549p ps=3.34u w=1.22u l=0.5u
+X17 a_2444_68# a_448_472# a_2132_68# VPW nfet_05v0 ad=0.2255p pd=1.37u as=0.3936p ps=1.78u w=0.82u l=0.6u
+X18 VDD a_1564_24# a_1320_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.7442p ps=2.44u w=1.22u l=0.5u
+X19 VDD a_2554_24# a_2506_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
+X20 VSS a_2554_24# a_2444_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.2255p ps=1.37u w=0.82u l=0.6u
+X21 VDD CLK a_36_68# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X22 a_448_472# a_36_68# VSS VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X23 a_1564_24# a_1096_472# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X24 a_1320_472# a_448_472# a_1096_472# VNW pfet_05v0 ad=0.7442p pd=2.44u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X25 a_948_472# a_36_68# VDD VNW pfet_05v0 ad=0.1464p pd=1.46u as=1.342p ps=4.64u w=1.22u l=0.5u
+.ends
+
+* NGSPICE file created from gf180mcu_extra__dfxtp_2.ext - technology: gf180mcuD
+
+.subckt gf180mcu_extra__dfxtp_2 VDD VNW VPW VSS Q D CLK
+X0 a_2132_68# a_36_68# a_1564_24# VNW pfet_05v0 ad=0.5673p pd=2.15u as=0.7076p ps=2.38u w=1.22u l=0.5u
+X1 a_1096_472# D a_948_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
+X2 Q a_2554_24# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.369p ps=2.54u w=0.82u l=0.6u
+X3 VSS CLK a_36_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X4 a_1516_68# a_448_472# a_1096_472# VPW nfet_05v0 ad=98.39999f pd=1.06u as=0.574p ps=2.22u w=0.82u l=0.6u
+X5 VSS a_1564_24# a_1516_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=98.39999f ps=1.06u w=0.82u l=0.6u
+X6 VDD a_2554_24# Q VNW pfet_05v0 ad=0.549p pd=3.34u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X7 a_1096_472# D a_836_68# VPW nfet_05v0 ad=0.574p pd=2.22u as=0.328p ps=1.62u w=0.82u l=0.6u
+X8 a_1564_24# a_1096_472# VDD VNW pfet_05v0 ad=0.7076p pd=2.38u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X9 a_2554_24# a_2132_68# VDD VNW pfet_05v0 ad=0.6588p pd=3.52u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X10 a_2132_68# a_448_472# a_1564_24# VPW nfet_05v0 ad=0.3936p pd=1.78u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X11 VSS a_2554_24# Q VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X12 a_836_68# a_36_68# VSS VPW nfet_05v0 ad=0.328p pd=1.62u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X13 a_2554_24# a_2132_68# VSS VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X14 a_448_472# a_36_68# VDD VNW pfet_05v0 ad=0.6588p pd=3.52u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X15 a_2506_472# a_448_472# a_2132_68# VNW pfet_05v0 ad=0.1464p pd=1.46u as=0.5673p ps=2.15u w=1.22u l=0.5u
+X16 Q a_2554_24# VDD VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.549p ps=3.34u w=1.22u l=0.5u
+X17 a_2444_68# a_36_68# a_2132_68# VPW nfet_05v0 ad=0.2255p pd=1.37u as=0.3936p ps=1.78u w=0.82u l=0.6u
+X18 VDD a_1564_24# a_1320_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.7442p ps=2.44u w=1.22u l=0.5u
+X19 VDD a_2554_24# a_2506_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
+X20 VSS a_2554_24# a_2444_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.2255p ps=1.37u w=0.82u l=0.6u
+X21 VDD CLK a_36_68# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X22 a_448_472# a_36_68# VSS VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X23 a_1564_24# a_1096_472# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X24 a_1320_472# a_36_68# a_1096_472# VNW pfet_05v0 ad=0.7442p pd=2.44u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X25 a_948_472# a_448_472# VDD VNW pfet_05v0 ad=0.1464p pd=1.46u as=1.342p ps=4.64u w=1.22u l=0.5u
+.ends
+
+* NGSPICE file created from gf180mcu_extra__trans_1.ext - technology: gf180mcuD
+
+.subckt gf180mcu_extra__trans_1 Y A VDD VNW VPW VSS ENB EN
+X0 Y EN A VPW nfet_05v0 ad=0.3854p pd=2.58u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X1 Y ENB A VNW pfet_05v0 ad=0.6954p pd=3.58u as=0.5368p ps=3.32u w=1.22u l=0.5u
+.ends
+
+* NGSPICE file created from gf180mcu_extra__trans_2.ext - technology: gf180mcuD
+
+.subckt gf180mcu_extra__trans_2 Y A VDD VSS ENB
+X0 Y a_124_24# A A nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X1 A a_124_376# Y ENB pfet_05v0 ad=0.6954p pd=3.58u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X2 Y a_124_376# A ENB pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X3 A a_124_24# Y A nfet_05v0 ad=0.3854p pd=2.58u as=0.2132p ps=1.34u w=0.82u l=0.6u
+.ends
+
