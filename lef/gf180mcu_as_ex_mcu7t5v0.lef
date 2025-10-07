@@ -2,9 +2,9 @@ VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO gf180mcu_as_sc_mcu7t5v0__trans_1
+MACRO gf180mcu_as_ex_mcu7t5v0__trans_1
   CLASS core ;
-  FOREIGN gf180mcu_as_sc_mcu7t5v0__trans_1 ;
+  FOREIGN gf180mcu_as_ex_mcu7t5v0__trans_1 ;
   ORIGIN 0.000 0.000 ;
   SIZE 2.240 BY 3.920 ;
   SYMMETRY X Y ;
@@ -94,15 +94,15 @@ MACRO gf180mcu_as_sc_mcu7t5v0__trans_1
         RECT 0.550 -0.250 2.670 0.250 ;
         RECT -0.430 -0.430 2.670 -0.250 ;
   END
-END gf180mcu_as_sc_mcu7t5v0__trans_1
+END gf180mcu_as_ex_mcu7t5v0__trans_1
 
 VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO gf180mcu_as_sc_mcu7t5v0__trans_2
+MACRO gf180mcu_as_ex_mcu7t5v0__trans_2
   CLASS core ;
-  FOREIGN gf180mcu_as_sc_mcu7t5v0__trans_2 ;
+  FOREIGN gf180mcu_as_ex_mcu7t5v0__trans_2 ;
   ORIGIN 0.000 0.000 ;
   SIZE 3.360 BY 3.920 ;
   SYMMETRY X Y ;
@@ -223,15 +223,15 @@ MACRO gf180mcu_as_sc_mcu7t5v0__trans_2
         RECT 1.930 0.850 2.075 2.860 ;
         RECT 1.930 0.600 2.770 0.850 ;
   END
-END gf180mcu_as_sc_mcu7t5v0__trans_2
+END gf180mcu_as_ex_mcu7t5v0__trans_2
 
 VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO gf180mcu_extra__dfxtp_2
+MACRO gf180mcu_as_ex_mcu7t5v0__dfxtp_2
   CLASS core ;
-  FOREIGN gf180mcu_extra__dfxtp_2 ;
+  FOREIGN gf180mcu_as_ex_mcu7t5v0__dfxtp_2 ;
   ORIGIN 0.000 0.000 ;
   SIZE 18.480 BY 3.920 ;
   SYMMETRY X Y ;
@@ -386,15 +386,15 @@ MACRO gf180mcu_extra__dfxtp_2
         RECT 7.245 0.810 7.525 1.430 ;
         RECT 5.030 0.530 7.525 0.810 ;
   END
-END gf180mcu_extra__dfxtp_2
+END gf180mcu_as_ex_mcu7t5v0__dfxtp_2
 
 VERSION 5.7 ;
   NOWIREEXTENSIONATPIN ON ;
   DIVIDERCHAR "/" ;
   BUSBITCHARS "[]" ;
-MACRO gf180mcu_extra__dfxtn_2
+MACRO gf180mcu_as_ex_mcu7t5v0__dfxtn_2
   CLASS core ;
-  FOREIGN gf180mcu_extra__dfxtn_2 ;
+  FOREIGN gf180mcu_as_ex_mcu7t5v0__dfxtn_2 ;
   ORIGIN 0.000 0.000 ;
   SIZE 18.480 BY 3.920 ;
   SYMMETRY X Y ;
@@ -547,7 +547,7 @@ MACRO gf180mcu_extra__dfxtn_2
         RECT 7.245 0.810 7.525 1.430 ;
         RECT 5.030 0.530 7.525 0.810 ;
   END
-END gf180mcu_extra__dfxtn_2
+END gf180mcu_as_ex_mcu7t5v0__dfxtn_2
 
 END LIBRARY
 

@@ -503,4 +503,6 @@ string FIXED_BBOX 0 0 3696 784
 string LEFclass core
 string LEFsite GF018hv5v_mcu_sc7
 string LEFsymmetry X Y
+string MASKHINTS_NPLUS -16 -46 3712 352
+string MASKHINTS_PPLUS -16 352 3712 830
 << end >>

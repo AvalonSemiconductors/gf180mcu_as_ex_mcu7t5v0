@@ -1,6 +1,6 @@
-* NGSPICE file created from gf180mcu_extra__dfxtn_2.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__dfxtn_2.ext - technology: gf180mcuD
 
-.subckt gf180mcu_extra__dfxtn_2 VDD VNW VPW VSS Q D CLK
+.subckt gf180mcu_as_ex_mcu7t5v0__dfxtn_2 VDD VNW VPW VSS Q D CLK
 X0 a_2132_68# a_448_472# a_1564_24# VNW pfet_05v0 ad=0.5673p pd=2.15u as=0.7076p ps=2.38u w=1.22u l=0.5u
 X1 a_1096_472# D a_948_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
 X2 Q a_2554_24# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.369p ps=2.54u w=0.82u l=0.6u
@@ -29,9 +29,9 @@ X24 a_1320_472# a_448_472# a_1096_472# VNW pfet_05v0 ad=0.7442p pd=2.44u as=0.37
 X25 a_948_472# a_36_68# VDD VNW pfet_05v0 ad=0.1464p pd=1.46u as=1.342p ps=4.64u w=1.22u l=0.5u
 .ends
 
-* NGSPICE file created from gf180mcu_extra__dfxtp_2.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__dfxtp_2.ext - technology: gf180mcuD
 
-.subckt gf180mcu_extra__dfxtp_2 VDD VNW VPW VSS Q D CLK
+.subckt gf180mcu_as_ex_mcu7t5v0__dfxtp_2 VDD VNW VPW VSS Q D CLK
 X0 a_2132_68# a_36_68# a_1564_24# VNW pfet_05v0 ad=0.5673p pd=2.15u as=0.7076p ps=2.38u w=1.22u l=0.5u
 X1 a_1096_472# D a_948_472# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.1464p ps=1.46u w=1.22u l=0.5u
 X2 Q a_2554_24# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.369p ps=2.54u w=0.82u l=0.6u
@@ -60,16 +60,16 @@ X24 a_1320_472# a_36_68# a_1096_472# VNW pfet_05v0 ad=0.7442p pd=2.44u as=0.3782
 X25 a_948_472# a_448_472# VDD VNW pfet_05v0 ad=0.1464p pd=1.46u as=1.342p ps=4.64u w=1.22u l=0.5u
 .ends
 
-* NGSPICE file created from gf180mcu_extra__trans_1.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__trans_1.ext - technology: gf180mcuD
 
-.subckt gf180mcu_extra__trans_1 Y A VDD VNW VPW VSS ENB EN
+.subckt gf180mcu_as_ex_mcu7t5v0__trans_1 Y A VDD VNW VPW VSS ENB EN
 X0 Y EN A VPW nfet_05v0 ad=0.3854p pd=2.58u as=0.3608p ps=2.52u w=0.82u l=0.6u
 X1 Y ENB A VNW pfet_05v0 ad=0.6954p pd=3.58u as=0.5368p ps=3.32u w=1.22u l=0.5u
 .ends
 
-* NGSPICE file created from gf180mcu_extra__trans_2.ext - technology: gf180mcuD
+* NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__trans_2.ext - technology: gf180mcuD
 
-.subckt gf180mcu_extra__trans_2 Y A VDD VSS ENB
+.subckt gf180mcu_as_ex_mcu7t5v0__trans_2 Y A VDD VSS ENB
 X0 Y a_124_24# A A nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
 X1 A a_124_376# Y ENB pfet_05v0 ad=0.6954p pd=3.58u as=0.3782p ps=1.84u w=1.22u l=0.5u
 X2 Y a_124_376# A ENB pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u

@@ -1,4 +1,4 @@
-library(gf180mcu_extra__tt_025C_5v00) {
+library(gf180mcu_as_ex_mcu7t5v0__tt_025C_5v00) {
 	delay_model : "table_lookup";
 	
 	technology ("cmos");
@@ -73,8 +73,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		index_2 ("1, 2, 3, 4, 5, 6, 7");
 	}
 	
-	cell (gf180mcu_extra__trans_1) {
-		cell_footprint : gf180mcu_extra__trans;
+	cell (gf180mcu_as_ex_mcu7t5v0__trans_1) {
+		cell_footprint : gf180mcu_as_ex_mcu7t5v0__trans;
 		area : 8.780800;
 		
 		pg_pin(VPW) {
@@ -136,8 +136,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		}
 	}
 	
-	cell (gf180mcu_extra__trans_2) {
-		cell_footprint : gf180mcu_extra__trans;
+	cell (gf180mcu_as_ex_mcu7t5v0__trans_2) {
+		cell_footprint : gf180mcu_as_ex_mcu7t5v0__trans;
 		area : 13.171200;
 		
 		pg_pin(VPW) {
@@ -199,8 +199,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		}
 	}
 	
-	cell (gf180mcu_extra__dffm2_2) {
-		cell_footprint : gf180mcu_extra__dffm2;
+	cell (gf180mcu_as_ex_mcu7t5v0__dffm2_2) {
+		cell_footprint : gf180mcu_as_ex_mcu7t5v0__dffm2;
 		area : 131.712000;
 		
 		ff (IQ0, IQN0) {
@@ -280,8 +280,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		}
 	}
 
-	cell (gf180mcu_extra__dfxtp_2) {
-		cell_footprint : gf180mcu_extra__dfxtp;
+	cell (gf180mcu_as_ex_mcu7t5v0__dfxtp_2) {
+		cell_footprint : gf180mcu_as_ex_mcu7t5v0__dfxtp;
 		area : 72.441600;
 		
 		ff (IQ, IQN) {
@@ -476,8 +476,8 @@ library(gf180mcu_extra__tt_025C_5v00) {
 		}
 	}
 	
-	cell (gf180mcu_extra__dfxtn_2) {
-		cell_footprint : gf180mcu_extra__dfxtn;
+	cell (gf180mcu_as_ex_mcu7t5v0__dfxtn_2) {
+		cell_footprint : gf180mcu_as_ex_mcu7t5v0__dfxtn;
 		area : 72.441600;
 		
 		ff (IQ, IQN) {

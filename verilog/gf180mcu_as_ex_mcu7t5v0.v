@@ -1,4 +1,4 @@
-module gf180mcu_as_sc_mcu7t5v0__trans_1(
+module gf180mcu_as_ex_mcu7t5v0__trans_1(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
@@ -15,7 +15,7 @@ module gf180mcu_as_sc_mcu7t5v0__trans_1(
 	assign Y = (EN && !ENB) ? A : 1'bz;
 endmodule
 
-module gf180mcu_as_sc_mcu7t5v0__trans_2(
+module gf180mcu_as_ex_mcu7t5v0__trans_2(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
@@ -32,7 +32,7 @@ module gf180mcu_as_sc_mcu7t5v0__trans_2(
 	assign Y = (EN && !ENB) ? A : 1'bz;
 endmodule
 
-module gf180mcu_extra__dffm2_2(
+module gf180mcu_as_ex_mcu7t5v0__dffm2_2(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
@@ -54,7 +54,7 @@ end
 
 endmodule
 
-module gf180mcu_extra__dffm4_2(
+module gf180mcu_as_ex_mcu7t5v0__dffm4_2(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
@@ -82,7 +82,7 @@ end
 
 endmodule
 
-module gf180mcu_extra_logic__dfxtp_2(
+module gf180mcu_as_ex_mcu7t5v0__dfxtp_2(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
@@ -101,7 +101,7 @@ assign Q = state;
 
 endmodule
 
-module gf180mcu_extra_logic__dfxtn_2(
+module gf180mcu_as_ex_mcu7t5v0__dfxtn_2(
 `ifdef USE_POWER_PINS
 	input VPW,
 	input VNW,
