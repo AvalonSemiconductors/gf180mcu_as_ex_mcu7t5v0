@@ -119,3 +119,22 @@ always @(negedge CLK) state <= D;
 assign Q = state;
 
 endmodule
+
+module gf180mcu_as_ex_mcu7t5v0__dy_dfxtn_2(
+`ifdef USE_POWER_PINS
+	input VPW,
+	input VNW,
+	input VDD,
+	input VSS,
+`endif
+	
+	input CLK,
+	input D,
+	output Q
+);
+
+reg state;
+always @(negedge CLK) state <= D;
+assign Q = state;
+
+endmodule

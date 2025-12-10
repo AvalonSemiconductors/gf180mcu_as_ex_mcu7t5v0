@@ -60,6 +60,29 @@ X24 a_1320_472# a_36_68# a_1096_472# VNW pfet_05v0 ad=0.7442p pd=2.44u as=0.3782
 X25 a_948_472# a_448_472# VDD VNW pfet_05v0 ad=0.1464p pd=1.46u as=1.342p ps=4.64u w=1.22u l=0.5u
 .ends
 
+* NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__dy_dfxtp_2.ext - technology: gf180mcuD
+
+.subckt gf180mcu_as_ex_mcu7t5v0__dy_dfxtp_2 VDD VNW VPW VSS D Q CLK
+X0 VDD a_2083_472# Q VNW pfet_05v0 ad=0.5368p pd=3.32u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X1 Q a_2083_472# VSS VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X2 VSS CLK a_36_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X3 a_1040_472# a_628_68# VDD VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X4 a_1859_472# a_1264_472# VDD VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5551p ps=3.35u w=1.22u l=0.5u
+X5 a_1879_68# a_1264_472# VSS VPW nfet_05v0 ad=0.6724p pd=2.46u as=0.3731p ps=2.55u w=0.82u l=0.6u
+X6 Q a_2083_472# VDD VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X7 VSS D a_628_68# VPW nfet_05v0 ad=0.2132p pd=1.34u as=0.3608p ps=2.52u w=0.82u l=0.6u
+X8 a_448_472# a_36_68# VDD VNW pfet_05v0 ad=0.6588p pd=3.52u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X9 a_2083_472# a_448_472# a_1879_68# VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.6724p ps=2.46u w=0.82u l=0.6u
+X10 a_1060_68# a_628_68# VSS VPW nfet_05v0 ad=0.6724p pd=2.46u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X11 VDD D a_628_68# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X12 VSS a_2083_472# Q VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X13 a_2083_472# a_36_68# a_1859_472# VNW pfet_05v0 ad=2.0252p pd=5.76u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X14 VDD CLK a_36_68# VNW pfet_05v0 ad=0.3782p pd=1.84u as=0.5368p ps=3.32u w=1.22u l=0.5u
+X15 a_448_472# a_36_68# VSS VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.2132p ps=1.34u w=0.82u l=0.6u
+X16 a_1264_472# a_448_472# a_1040_472# VNW pfet_05v0 ad=2.0252p pd=5.76u as=0.3782p ps=1.84u w=1.22u l=0.5u
+X17 a_1264_472# a_36_68# a_1060_68# VPW nfet_05v0 ad=0.3608p pd=2.52u as=0.6724p ps=2.46u w=0.82u l=0.6u
+.ends
+
 * NGSPICE file created from gf180mcu_as_ex_mcu7t5v0__trans_1.ext - technology: gf180mcuD
 
 .subckt gf180mcu_as_ex_mcu7t5v0__trans_1 Y A VDD VNW VPW VSS ENB EN
